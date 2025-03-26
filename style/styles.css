@@ -16,15 +16,14 @@ body {
   header {
     background-color: #2F4F4F;
     color: white;
-    padding: 20px;
     text-align: center;
   }
 
-  nav {
+  .navBar {
     background-color: #4e7a73;
   }
   
-  nav ul {
+  .navBar ul {
     list-style: none;
     margin: 0;
     padding: 10px;
@@ -33,13 +32,13 @@ body {
     justify-content: center;
   }
   
-  nav a {
+  .navBar a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
   }
   
-  nav a:hover {
+  .navBar a:hover {
     color: #89e687;
     font-size: larger;
     transition: 0.5s;
@@ -47,6 +46,27 @@ body {
 
   p {
     padding: 2%;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .contentLeft {
+    width: 30%;
+    background-color: #A3B18A;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  .contentRight {
+    width: 70%;
+    background-color: #DAD7CD;
+    padding: 15px;
+    border-radius: 15px;
   }
 
   footer {
