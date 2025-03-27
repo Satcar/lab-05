@@ -106,3 +106,13 @@ body {
     display: flex;
     justify-content: center;
   }
+
+  img {
+    width: 300px;
+    margin: 15px;
+  }
+
+  .imgContainer {
+    display: flex;
+    justify-content: right;
+  }
