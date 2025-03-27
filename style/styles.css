@@ -96,3 +96,13 @@ body {
     background-color: #DAD7CD;
     color: #2F4F4F;
   }
+
+  video {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .mediaContainer {
+    display: flex;
+    justify-content: center;
+  }
